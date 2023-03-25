@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 54px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: bisque;
+    box-shadow: 0px 5px 5px lightgrey;
+}
+
+.navbar__container {
+    
+    font-family: 'Roboto', sans-serif;
+    width: 953px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: brown;
+    
+}
+
+.navbar__container ion-icon {
+    font-size: 18px;
+    /* filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4)); */
+}
+
+.navbar__container__searchbox {
+    justify-self: flex-end;
+    font-weight: 400;
+    color: #979797;
+    margin: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.navbar__container__searchbox__rect {
+    width: 215px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.navbar__container__left {
+    /* margin: 6px; */
+    width: 143px;
+    justify-self: start;
+    display: flex;
+    align-items: center;
+    /* font-size: 18px; */
+    background-color: azure;
+}
+
+.navbar__container_right {
+    /* margin: 6px; */
+    width: 143px;
+    justify-self: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* font-size: 17.87px; */
+    background-color: blueviolet;
+
+}
+
+.main__content {
+    max-width: 953px;
+}
