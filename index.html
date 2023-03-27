@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Instagram</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,24 +13,29 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
+
+  
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/style.css">
+  
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 
   <meta name="theme-color" content="#fafafa">
+  
 </head>
 
 <body>
-    <!-- NAVBAR -->
+    <!-- NAVBAR DESKTOP -->
   <div class="navbar">
     <div class="navbar__container">
         <!-- ICONS LEFT -->
         <div class="navbar__container__left">
-            <ion-icon name="logo-instagram"></ion-icon>
+            <a href=""> <ion-icon name="logo-instagram"> </a>
+            <div class="navbar__container__left__rect"></div>
+            <img src="img/logotype_instagram.svg" alt="">
         </div>
 
         <!-- SEARCHBOX -->
@@ -41,12 +47,281 @@
         </div>
         <!-- ICONS RIGHT -->
         <div class="navbar__container_right">
-            <ion-icon name="paper-plane-outline"></ion-icon>
-            <ion-icon name="heart-outline"></ion-icon>
-            <ion-icon name="compass-outline"></ion-icon>
-            <ion-icon name="person-outline"></ion-icon>
+            <a href=""> <ion-icon name="paper-plane-outline"></ion-icon> </a>
+            <a href=""> <ion-icon name="heart-outline"></ion-icon> </a>
+            <a href=""> <ion-icon name="compass-outline"></ion-icon> </a>
+            <a href=""> <ion-icon name="person-outline"></ion-icon> </a>
         </div>
     </div>
+  </div>
+
+  <!-- NAVBAR MOBILE -->
+    <div class="navbar__container__mobile">
+            <a href=""> <ion-icon name="logo-instagram" style="margin-left: 16px;"> </a>
+        <div><img src="img/logotype_instagram.svg" alt=""></div>
+        <div><a href="" style="margin-right: 16px;"> <ion-icon name="paper-plane-outline"></ion-icon> </a></div>
+  </div>
+
+  <div class="lower__navbar">
+    <ion-icon name="home-outline" style="margin-left: 16px;"></ion-icon>
+    <ion-icon name="search-outline"></ion-icon>
+    <ion-icon name="add-circle-outline"></ion-icon>
+    <ion-icon name="heart-outline"></ion-icon>
+    <ion-icon name="person-outline" style="margin-right: 16px;"></ion-icon>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="content-body">
+    <div class="content">
+        <div class="content__main">
+
+            <!-- STORIES -->
+            <div class="stories__body">
+                <div class="stories__container">
+                    <!-- story -->
+                    <div class="story">
+                        <div class="story__avatar">
+                            <div class="rounded-gradient-borders"><img src="img/driven.jpg" alt=""></div>
+                            
+                        </div>
+                        <div class="story__profileAt">driven.education</div>
+                    </div>
+                    <!-- story end -->
+                    <!-- story -->
+                    <div class="story">
+                        <div class="story__avatar">
+                            <div class="rounded-gradient-borders"><img src="img/eighty_level.jpg" alt=""></div>
+                            
+                        </div>
+                        <div class="story__profileAt">eighty_level</div>
+                    </div>
+                    <!-- story end -->
+                    <!-- story -->
+                    <div class="story">
+                        <div class="story__avatar">
+                            <div class="rounded-gradient-borders"><img src="img/lookatbrazilians.jpg" alt=""></div>
+                            
+                        </div>
+                        <div class="story__profileAt">lookatthebrazilians</div>
+                    </div>
+                    <!-- story end -->
+                    <!-- story -->
+                    <div class="story">
+                        <div class="story__avatar">
+                            <div class="rounded-gradient-borders"><img src="img/depthswiki.jpg" alt=""></div>
+                            
+                        </div>
+                        <div class="story__profileAt">depthofwikipedia</div>
+                    </div>
+                    <!-- story end -->
+                    <!-- story -->
+                    <div class="story">
+                        <div class="story__avatar">
+                            <div class="rounded-gradient-borders"><img src="img/artneversleeps.jpg" alt=""></div>
+                            
+                        </div>
+                        <div class="story__profileAt">artneversleeps</div>
+                    </div>
+                    <!-- story end -->
+                    <!-- story -->
+                    <div class="story">
+                        <div class="story__avatar">
+                            <div class="rounded-gradient-borders"><img src="img/vice.jpg" alt=""></div>
+                            
+                        </div>
+                        <div class="story__profileAt">vice </div>
+                    </div>
+                    <!-- story end -->
+                    <!-- story -->
+                    <div class="story">
+                        <div class="story__avatar">
+                            <div class="rounded-gradient-borders"><img src="img/institutochao.jpg" alt=""></div>
+                            
+                        </div>
+                        <div class="story__profileAt">institutochao </div>
+                    </div>
+                    <!-- story end -->
+                    <!-- story -->
+                    <div class="story">
+                        <div class="story__avatar">
+                            <div class="rounded-gradient-borders"><img src="img/midianinja.jpg" alt=""></div>
+                            
+                        </div>
+                        <div class="story__profileAt">midianinja</div>
+                    </div>
+                    <!-- story end -->
+                    
+                </div>
+                <a class="chevron" href=""><ion-icon name="chevron-forward-outline" style="position: absolute; right: 5px; top: 35%; background-color: white;border-radius: 100%; filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); color: lightgray; font-size: 28px;"></ion-icon></a>
+            </div>
+            <!-- STORIES END -->
+
+            <!-- POSTS -->
+            <div class="content__main__posts">
+                <!-- post -->
+                <div class="post_container">
+                    <div class="post__top">
+                        <div class="post__top__leftContainer">
+                            <img src="img/meowed.jpg" alt="">
+                            <div class="post__top__profile"> meowed</div>
+                        </div>
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </div>
+                    <div class="post__content">
+                        <img src="img/gatotelefone.jpg" alt="">
+                    </div>
+                    <div class="post__bottom">
+                        <div class="post__bottom__iconsLeft">
+                            <a href=""><ion-icon name="heart-outline"></ion-icon></a>
+                            <a href=""><ion-icon name="chatbubble-outline"></ion-icon></a>
+                            <a href=""><ion-icon name="paper-plane-outline"></ion-icon></a>
+                        </div>
+                        <div style="margin-right: 16px;"><ion-icon name="bookmark-outline"></ion-icon></div>
+                    </div>
+                </div>
+                <!-- post end -->
+                <!-- post -->
+                <div class="post_container">
+                    <div class="post__top">
+                        <div class="post__top__leftContainer">
+                            <img src="img/bearsinnature.jpg" alt="">
+                            <div class="post__top__profile"> bearsinnature</div>
+                        </div>
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </div>
+                    <div class="post__content">
+                        <video autoplay muted>
+                            <source src="img/video.mp4" type="video/mp4">
+                            <source src="img/video.ogv" type="video/ogv">
+
+                        </video>
+                    </div>
+                    <div class="post__bottom">
+                        <div class="post__bottom__iconsLeft">
+                            <a href=""><ion-icon name="heart-outline"></ion-icon></a>
+                            <a href=""><ion-icon name="chatbubble-outline"></ion-icon></a>
+                            <a href=""><ion-icon name="paper-plane-outline"></ion-icon></a>
+                        </div>
+                        <div style="margin-right: 16px;"><ion-icon name="bookmark-outline"></ion-icon></div>
+                    </div>
+                </div>
+                <!-- post end -->
+                <!-- post -->
+                <div class="post_container">
+                    <div class="post__top">
+                        <div class="post__top__leftContainer">
+                            <img src="img/retroscifiart.jpg" alt="">
+                            <div class="post__top__profile"> Namenem</div>
+                        </div>
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </div>
+                    <div class="post__content">
+                        <img src="img/gatotelefone.jpg" alt="">
+                    </div>
+                    <div class="post__bottom">
+                        <div class="post__bottom__iconsLeft">
+                            <a href=""><ion-icon name="heart-outline"></ion-icon></a>
+                            <a href=""><ion-icon name="chatbubble-outline"></ion-icon></a>
+                            <a href=""><ion-icon name="paper-plane-outline"></ion-icon></a>
+                        </div>
+                        <div style="margin-right: 16px;"><ion-icon name="bookmark-outline"></ion-icon></div>
+                    </div>
+                </div>
+                <!-- post end -->
+            </div>
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+            <div class="sidebar__box">
+                <div class="sidebar__userProfile">
+                    <a href="https://www.instagram.com/bp_3d/"><img src="img/benperet.jpg" alt="" style="width: 56px;"></a>
+                    <div style="margin-left: 17px; display: flex; flex-direction: column; justify-content:baseline;"><p style="margin: 0px; padding: 0px; font-weight: 500; font-size: 14px; line-height: 14px;">bp_3d</p> <p style="margin: 0px; padding: 0px;font-weight: 300; font-size: 14px; color: #8E8E8E;">Benjamin Péret</p></div>
+                </div>
+                <div class="sidebar__suggestionContainer">
+                    <div style="display: flex; justify-content: space-between;"><div style="font-weight: 400; color: #8E8E8E; font-size: 12px; ">Sugestões para você</div><div style="font-size: 12px; font-weight: 500; text-align: center; color: #262626;">Ver tudo</div></div>
+
+                    <!-- recommended -->
+                    <div class="sidebar__suggestion">
+                        <div class="sidebar__suggestion__containerLeft">
+                            <div class="sidebar__suggestion__avatar"><img src="img/badvibe.jpg" alt=""></div>
+                            <div class="sidebar__suggestion__text">
+                                <div class="sidebar__suggestion__profile">bad.vibes.memes</div>
+                                <div class="sidebar__suggestion__status">Segue você</div>
+                            </div>
+                        </div>
+                        
+                        <a href=""><div class="sidebar__suggestion__action">Seguir</div></a>
+                    </div>
+                    <!-- recommended end-->
+
+                    <!-- recommended -->
+                    <div class="sidebar__suggestion">
+                        <div class="sidebar__suggestion__containerLeft">
+                            <div class="sidebar__suggestion__avatar"><img src="img/iwouldpreferno.jpg" alt=""></div>
+                            <div class="sidebar__suggestion__text">
+                                <div class="sidebar__suggestion__profile">iwouldpreferno</div>
+                                <div class="sidebar__suggestion__status">Segue você</div>
+                            </div>
+                        </div>
+                        
+                        <a href=""><div class="sidebar__suggestion__action">Seguir</div></a>
+                    </div>
+                    <!-- recommended end-->
+
+                    <!-- recommended -->
+                    <div class="sidebar__suggestion">
+                        <div class="sidebar__suggestion__containerLeft">
+                            <div class="sidebar__suggestion__avatar"><img src="img/humans_of_capitalism.jpg" alt=""></div>
+                            <div class="sidebar__suggestion__text">
+                                <div class="sidebar__suggestion__profile">humans_of_capitalism</div>
+                                <div class="sidebar__suggestion__status">Novo no Instagram</div>
+                            </div>
+                        </div>
+                        
+                        <a href=""><div class="sidebar__suggestion__action">Seguir</div></a>
+                    </div>
+                    <!-- recommended end-->
+
+                    <!-- recommended -->
+                    <div class="sidebar__suggestion">
+                        <div class="sidebar__suggestion__containerLeft">
+                            <div class="sidebar__suggestion__avatar"><img src="img/iwouldpreferno.jpg" alt=""></div>
+                            <div class="sidebar__suggestion__text">
+                                <div class="sidebar__suggestion__profile">iwouldpreferno</div>
+                                <div class="sidebar__suggestion__status">Segue você</div>
+                            </div>
+                        </div>
+                        
+                        <a href=""><div class="sidebar__suggestion__action">Seguir</div></a>
+                    </div>
+                    <!-- recommended end-->
+
+                    <!-- recommended -->
+                    <div class="sidebar__suggestion">
+                        <div class="sidebar__suggestion__containerLeft">
+                            <div class="sidebar__suggestion__avatar"><img src="img/iwouldpreferno.jpg" alt=""></div>
+                            <div class="sidebar__suggestion__text">
+                                <div class="sidebar__suggestion__profile">iwouldpreferno</div>
+                                <div class="sidebar__suggestion__status">Segue você</div>
+                            </div>
+                        </div>
+                        
+                        <a href=""><div class="sidebar__suggestion__action">Seguir</div></a>
+                    </div>
+                    <!-- recommended end-->
+                </div>
+                    <div class="sidebar__smalltype">
+                        Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade •
+            Termos • Localizações • Contas mais relevantes • Hashtags • 
+            Idioma <br><br> © 2021 INSTAGRAM DO FACEBOOK
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
   </div>
   
 
@@ -57,14 +332,12 @@
 
 
 
-
-
-
-
-  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  
+    
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
